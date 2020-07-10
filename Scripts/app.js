@@ -279,6 +279,30 @@
         return false;
     }
         
+    function ParseForm()
+    {
+        addEventListener("submit", (event) =>
+            {
+                
+                let submitButton = document.getElementById("submitButton");
+                event.preventDefault();
+                var firstName = document.getElementById("firstName").value;
+                var lastName = document.getElementById("lastName").value;
+                var contactNumber = document.getElementById("contactNumber").value;
+                var email = document.getElementById("email").value;
+                var yourMessage = document.getElementById("yourMessage").value;
+
+              
+
+                console.log("First name: " + firstName);
+                console.log("Last name: " + lastName);
+                console.log("Contact number: " + contactNumber);
+                console.log("Email: " + email);
+                console.log("Attached Message: " + yourMessage);
+                
+            });
+    }
+
 
         addParagraphsToIntroParagraph()
         addParagraphsToFolegandros()
@@ -290,10 +314,11 @@
         addParagraphsToHydra()
         addParagraphsToIthica()
         addParagraphsToGavdos()
+        ParseForm()
      
         
         return false;
-    }
+}
     
 
 
