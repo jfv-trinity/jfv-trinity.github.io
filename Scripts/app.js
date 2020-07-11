@@ -233,7 +233,7 @@ Website name: COMP125 - MidTerm Test
 
         return false;
     }
-    function addParagraphsToIthica () 
+    function addParagraphsToIthaca () 
     {
         let ithica = document.getElementById("Ithaca" );
        
@@ -262,7 +262,7 @@ Website name: COMP125 - MidTerm Test
     }
     function addParagraphsToGavdos () 
     {
-        let gavdos = document.getElementById("Gavdos" );
+        let gavdos = document.getElementById("Gavdos");
        
         if (gavdos) 
         {
@@ -322,7 +322,7 @@ Website name: COMP125 - MidTerm Test
         addParagraphsToSyros()
         addParagraphsToMilos()
         addParagraphsToHydra()
-        addParagraphsToIthica()
+        addParagraphsToIthaca()
         addParagraphsToGavdos()
         ParseForm()
      
