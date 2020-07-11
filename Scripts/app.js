@@ -235,9 +235,9 @@ Website name: COMP125 - MidTerm Test
     }
     function addParagraphsToIthica () 
     {
-        let ithica = document.getElementById("Ithica" );
+        let ithica = document.getElementById("Ithaca" );
        
-        if (ithica) 
+        if (ithaca) 
         {
            
             let newParagraph = document.createElement("p");
@@ -251,7 +251,7 @@ Website name: COMP125 - MidTerm Test
                 `;
 
            
-            ithica.appendChild(newParagraph);
+            ithaca.appendChild(newParagraph);
     
             return true;
 
