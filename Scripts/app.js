@@ -235,7 +235,7 @@ Website name: COMP125 - MidTerm Test
     }
     function addParagraphsToIthaca () 
     {
-        let ithica = document.getElementById("Ithaca" );
+        let ithaca = document.getElementById("Ithaca" );
        
         if (ithaca) 
         {
@@ -262,7 +262,7 @@ Website name: COMP125 - MidTerm Test
     }
     function addParagraphsToGavdos () 
     {
-        let gavdos = document.getElementById("Gavdos");
+        let gavdos = document.getElementById("Gavdos" );
        
         if (gavdos) 
         {
