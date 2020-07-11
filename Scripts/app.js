@@ -1,5 +1,14 @@
+/*
+File Name: app.js
+Author Name: Joseph Volpe
+Website name: COMP125 - MidTerm Test
+*/
+
+
 // setup your IIFE (Immediately Invoked Function Expression)
 
+
+//  <---- Function/Command Page ---->
 (function () {
     "use strict";
     function addParagraphsToIntroParagraph () 
@@ -278,7 +287,6 @@
 
         return false;
     }
-        
     function ParseForm()
     {
         addEventListener("submit", (event) =>
@@ -304,6 +312,8 @@
     }
 
 
+//    <----- Functions called ----->
+
         addParagraphsToIntroParagraph()
         addParagraphsToFolegandros()
         addParagraphsToAlonissos()
@@ -319,10 +329,6 @@
         
         return false;
 }
-    
-
-
-// YOUR CODE GOES HERE
 
 
 )();
